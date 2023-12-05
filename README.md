@@ -1,12 +1,20 @@
 # Full Full Stack - Project Course
 
-This is a course for design and development of a full stack application. The double full word in the title was chosen to emphasize the fact that this course will cover not only the backend and frontend, but also the design of the application and the publishing of it. We will use a lot of different technologies and tools to achieve this goal. The course will be divided into different sections, each section will cover a different topic. The sections will be ordered in a way that will allow us to build the application step by step.
+> Intro: Hello, I am Christos! Thank you all for been here.
 
-For the course we will build a simple news aggregator application. The application will periodically fetch news from different sources and display them in a single page. Moreover, the application will allow users to read the summary of the articles, which will be generated using AI. An additional feature will be the ability to listen to the summary of the article using a text to speech engine.
+In this series of talks we will build a full stack application. I named this series of talks "Full Full Stack" because I will cover not only the backend and frontend, but also the design of and the publishing.
 
-## Course Structure
+We will use a lot of different technologies and tools to achieve this goal, but of course many of those will be around javascript.
 
-The course will be divided into different sections, each section will cover a different topic. The sections will not be ordered in a classical way from frond to back but in most important to low important feature. We will build the core parts of the application first, and then we will add additional features. This will allow us to build the application from the center out, and to focus on the most important parts first.
+Also I decided to break the typical order of the sections, and to start with the most important features first. This will allow us to build the application from the center out, and to focus on the most important parts before the less ones.
+
+So, we will build a simple news aggregator. This project is already published and soon I will make its source code available. It was built because I was tired of reading the news, and I wanted to listen to them instead. But listening to long articles is not a good. Nobody has time for that. So I decided to build a simple application that will scrape the news, summarize them, and generate an audio of the summary. This way I can listen to the news while I am driving, or doing something else.
+
+The most important features are:
+
+- scrape articles from different websites.
+- generate a summary of the articles using AI.
+- generate the audio of the summary using a text to speech engine.
 
 ### [Section 01 - Web Scraping](./section-01/README.md)
 
@@ -45,7 +53,7 @@ Notes:
 - Explain: How to use a queue?
 - Build: A queue handler that will generate the summary and audio of the articles.
 
-### [Section 06 - Pug / AplineJS / Tailwind as a frontend]()
+### [Section 06 - Pug / AlpineJS / Tailwind as a frontend]()
 
 ### [Section 07 - NestJS as a backend]()
 
