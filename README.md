@@ -1,5 +1,7 @@
 # Full Full Stack - Project Course
 
+In this series of talks we will build a full stack application. It will be a news aggregator that will scrape the news, summarize them using AI, and generate an audio of the summary. We will cover not only the backend and frontend, but also the design of and the publishing. We will use a lot of different technologies but the main focus will be on javascript. Also we will break the typical order of the sections, and we will start with the most important features first, building the application from the center out. 
+
 > Intro: Hello, I am Christos! Thank you all for been here.
 
 In this series of talks we will build a full stack application. I named this series of talks "Full Full Stack" because I will cover not only the backend and frontend, but also the design of and the publishing.
